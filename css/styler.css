@@ -1,0 +1,325 @@
+body
+{
+        background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: Helvetica Neue;
+        color:black
+        background-repeat:repeat-x;
+}
+
+/*.sas{
+    
+    background-color:white;
+    width:800px;
+    margin-right:310px;
+    height:500px;
+    border:6px solid #1C478E;
+    border-radius:30px;
+    float:right;
+}
+
+.navigate{
+    padding-bottom:2em;
+    float:left;
+    background:linear-gradient(to top,#0a87c1,#135188);
+    width:208px;
+    border-radius:20px;
+    height:480px;
+    
+    
+}
+
+ul {
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 125px;
+    height:500px;
+}
+
+a {
+    padding-top:10px;
+    display: block;
+    color:#fff;
+    font-size:20px;
+    padding: 8px 16px;
+    text-decoration: none;
+}*/
+
+/* Change the link color on hover
+ul a:hover {
+    background-color:#555;
+    width:172px;
+    padding-top:5px;
+    height:20px;
+    border-radius:7px;
+    color: white;
+    }*/
+
+div{
+display:block;
+}
+
+button{
+  font-family:Helvetica Neue;
+  font-weight: bold !important;
+  background: #222
+  letter-spacing: normal;
+  color: white;
+  font-size: 1em;
+  text-shadow: 1px 1px white;
+  }
+
+button:hover{
+background: linear-gradient(#1081b7, #128fcc, #2ca7e2);
+
+}
+
+/*welcome to SAS   */
+
+/*.cont{
+  
+  position:fixed;
+  width:59%;
+}*/
+
+
+.image{
+  width:250px;
+  height:10em;
+   border-radius:25px;
+   }
+
+ /* .overlay {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  opacity:100%;
+  height:0;
+  border-radius:15px;
+  transition: .5s ease;}
+  
+.image:hover .overlay{
+
+   bottom:0;
+   height:50%;
+
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*     end of hover*/ */
+
+
+/*@keyframes example
+{
+      0%{left:0px;}
+      25%{left:200px;}
+      50%{left:400px;}
+      100%{left:600px;}
+
+
+}
+
+
+.topanim:hover
+{
+animation-name:example;
+animation-duration:4s;
+animation-timing-function:ease-in-out;
+}
+
+*/
+
+._student{
+font-family: Helvetica Neue;
+color: #9E9E9E;
+width: 45%;
+height: 90%;
+padding-top: 2em;
+padding-bottom: 1em;
+  padding-left:4em;
+float:right;
+
+}
+._studenttop{
+height: 10%;
+padding-top:10px;
+padding: 0;
+}
+
+
+._admin{
+font-family: Helvetica Neue;
+color: #4CAF50;
+width: 45%;
+height: 90%;
+padding-top: 2em;
+padding-bottom: 2em;
+padding-left: 3em;
+padding-right: 1em;
+float:left;
+}
+._admintop{
+height: 10%;
+padding-top:10px;
+padding: 0;	
+}
+
+._adv{
+font-family: Helvetica Neue;
+color: #3b3b3b;
+width: 35%;
+height: 90%;
+padding-top: 1em;
+padding-bottom: 1em;
+padding-left: 2em;
+padding-right: 1em;
+float:right;
+}
+
+/*._topbar
+{   
+    background: linear-gradient(#05a1ea, #042535);
+    position: fixed !important;
+    font-size:25px;
+    height:5em;
+    border-bottom: 1px solid #b5a39c;
+    box-shadow: 0 1px 1px 1px #888888;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 4000;
+}*/
+
+._maincontent{
+ 
+ background-color: #c3366FF;
+ height:100%;
+ width:100%;
+ position: relative;
+ margin-top: 3em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: auto;
+ padding-bottom: 2em;
+  }
+
+  
+  .stable{
+	  
+	  border:2px ;
+	  resize:both;
+	  overflow:auto;
+	  padding-top:5px;
+	  padding-bottom:5px;
+	  width:300px;
+	  
+  }
+	  
+.inputtext_reg{
+font-family:Helvetica Neue;
+font-size: 0.8em;
+border-radius: 5px;
+border: 1px solid #bdc7d8;
+width: 33%;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+margin-right: 1em;
+}
+
+
+a{
+    color:white;
+    padding-left:100px;
+}
+
+.regButt
+   
+   {position: relative;
+    width: 12em;
+    padding: 0.5em 0.5em;
+    background: #222;
+    color:white;
+    font-family:Helvetica Neue;
+    border-color: #080808;
+    border-radius: 5px;
+    line-height: 150%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+   }
+
+.regButt:hover{
+background: linear-gradient(#1081b7, #128fcc, #2ca7e2);
+
+}
+
+
+
+/*input:focus,select:focus
+{
+	width:45em;
+	background-color:lightblue;
+    color:black;
+}*/
+	
+
+.barbottom{
+background-color: #23272d;
+font-family : Helvetica Neue;
+background-repeat: repeat-x;
+background-position: 0;
+background-size: 0;
+border-top: 1px solid black;
+width: 100%;
+height: 30px;
+left:0;
+right: 0;
+overflow:hiddden;
+position: fixed !important;
+}
+
+._adminpage{
+margin-left:25em;
+}
+
+hr{
+    border:1px solid;
+    width:75%;
+}
+h2{
+	color: #ffffff;
+	padding-top:15px;
+}
+
+h1.heading{
+    color:#555;
+    margin-left:1em;
+}
+h3{
+    color: #1C478E;
+}
+
+h1{
+	color: #f9f2f2;
+    font-size:50px;
+    
+}
